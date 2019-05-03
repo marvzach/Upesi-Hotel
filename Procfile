@@ -1,1 +1,1 @@
-web: ./build/install/wildlife/bin/wildlife
+web: ./build/install/Upesi/bin/Upesi

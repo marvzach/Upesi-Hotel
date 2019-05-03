@@ -1,0 +1,137 @@
+/* body{
+  font-family: 'Exo', sans-serif;
+}
+.jumbotron{
+  background-image: url('../img/bg.png');
+  height: 450px;
+  background-size: cover;
+  font-size: 10px;
+}
+.navig{
+  float: left;
+}
+
+img{
+  height: 160px;
+  width: 250px;
+  border-radius: 5px;
+}
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 10;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-left: 50px;
+  font-family: 'Exo', sans-serif;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  font-family: 'Exo', sans-serif;
+}
+
+.sidenav a:hover {
+  color: black;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.prizes{
+  margin-left: 250px;
+  font-family: 'Exo', sans-serif;
+}
+.navig .col-md-4{
+  margin-top: 50px;
+}
+.prizes h1{
+  background-color: #e6e6e6;;
+  font-size: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ebebeb;
+  color: #080808;
+  font-family: 'Exo', sans-serif;
+}
+.price p{
+  text-align: right;
+  font-size: 20px;
+}
+.sidenav h1{
+  color: #FF5722;
+}
+form{
+  margin-left:50px;
+}
+input[type=text] {
+  width: 76%;
+  padding: 12px;
+  border: 1px solid grey;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  margin-left: 10px;
+  font-family: 'Exo', sans-serif;
+}
+button {
+  padding: 12px;
+  border: 1px solid grey;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  margin-left: 60px;
+  font-family: 'Exo', sans-serif;
+
+}
+
+.placetitle {
+  padding: 25px 20px 10px;
+  background: #F57F17;
+  border-radius: 10px;
+  left: 2%;
+  margin-top: 6%;
+  color: #FFF;
+  z-index: 1;
+  height: 160px;
+  width: 250px;
+  font-size: 25px;
+  padding: 40px;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+
+}
+.placeopening{
+  color: white;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Exo', sans-serif;
+
+  }
+.ourlogo{
+  position: absolute;
+    left: 1%;
+    margin-top: 6%;
+    max-height: 180;
+}
+#grill{
+  font-size: 10px;
+  margin-top: -20px;
+}
+.panel-title{
+  font-family: 'Exo', sans-serif;
+}
+.panel-body{
+  font-family: 'Exo', sans-serif;
+}
+.panel-footer{
+  font-family: 'Exo', sans-serif;
+} */

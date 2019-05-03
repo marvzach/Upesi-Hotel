@@ -1,31 +1,134 @@
-/* .custom-select {
-   position: relative; 
-  font-family: Arial;
-}
-
-
-.select-items div,.select-selected {
-  color: #ffffff;
-  padding: 8px 66px;
-  border: 1px solid transparent;
-  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-  cursor: pointer;
-}
-
 body{
-  background-image: url("images/7.jpg");
-  font-size: 20px;
+  font-family: 'Exo', sans-serif;
+}
+.jumbotron{
+  background-image: url('/images/pizza.jpeg');
+  height: 450px;
   background-size: cover;
-  color: aliceblue;
-  font-family: 'Josefin Sans', sans-serif;
- }
+  font-size: 10px;
+}
+.o{
+  background-image: url('/images/bgchina.jpg');
+  height: 450px;
+  background-size: cover;
+  font-size: 10px;
+}
+.m{
+  background-image: url('/images/m2.jpg');
+  height: 450px;
+  background-size: cover;
+  font-size: 10px;
+}
+  .logo{
+    height: 150px;
+    width: 300px;
+  }
+  form{
+    margin-left:300px;
+  }
+  input[type=text] {
+    width: 45%;
+    padding: 12px;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    margin-left: 10px;
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
+  }
+  button {
+    padding: 12px;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
 
- h1{
-	text-align: center;
+  }
+  .jumbotron .intro1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin: 10%;
+  }
+span{
+  color: #F57F17;
 }
-.carousel-caption{
-  margin-top: 150px;
+.forder{
+  width: 600px;
+  height: 400px;
 }
-a{
-  
-}  */
+.navbar{
+  height: 190px;
+  background: #F57F17;
+}
+.nav-link{
+  font-size: 25px;
+  color: aliceblue;
+}
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color:aliceblue;
+}
+.top-page{
+  margin-top: -20px;
+}
+.cart1{
+  height: 50px;
+  width: 50px;
+  margin-right: 100px;
+}
+#grill{
+  margin-top: -20px;
+}
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 92%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 10px 15px 10px 35px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 10;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+.first-order{
+  margin-left: 20px;
+}
+.bara{
+  width: 200px;
+}
+.mh{
+  width: 80%;
+  height: 35em;
+  margin-left: 100px;
+  margin-top: 50px;
+ 
+}
+.okay{
+  font-size: 30px;
+}
+.v{
+  margin-left: 50px;
+  padding: 2%;
+}

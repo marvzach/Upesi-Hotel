@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <base href="/">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Trace Park</title>
+  <title>Upesi</title>
+   <link rel='icon' href='https://image.flaticon.com/icons/png/512/45/45332.png'>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -15,33 +15,82 @@
   <link rel='stylesheet' href='MDN/css/mdb.min.css'>
   <link rel='stylesheet' href='MDN/css/mdb.css'>
   <!-- Your custom styles (optional) -->
-  
-    <link rel='stylesheet' href='/app.css'>
- <link href="https://fonts.googleapis.com/css?family=Courgette|Handlee|Josefin+Sans|Julius+Sans+One" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Merienda" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' href='signup.css'>
+    <link rel='stylesheet' href='contacts.css'>
+    <link rel='stylesheet' href='pizza.css'>
+    <link rel='stylesheet' href='chinese.css'>
+    <link rel='stylesheet' href='grill.css'>
+    <link rel='stylesheet' href='bootstrap.css'>
+    <link rel='stylesheet' href='app.css'>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
 </head>
 <body>
-    
- <nav class="navbar navbar-expand-lg navbar-light bg-info">
-      <a class="navbar-brand" href="/"> Trace Park</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info orange accent-3">
+      <a class="" href="/"> <img class="logo" src="images/logo.png" alt="Logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/sightings">Sightings<span class="sr-only">(current)</span></a>
+          <li class="nav-item ">
+            <a class="nav-link" href="/login">Login <span class="sr-only">(current)</span></a>
           </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/signup">Sign Up <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Hotels
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/chinese">Cho Yon</a>
+              <a class="dropdown-item" href="/pizza">OctoPizza</a>
+               <a class="dropdown-item" href="/grill">Meat and Grill</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/contacts" tabindex="-1" aria-disabled="true">Contacts</a>
+          </li>
+          <div class="two columns u-pull-right">
+          
+<ul>
+<li class="submenu">
+<img src="https://image.flaticon.com/icons/png/512/2/2772.png" width="50" height="50" id="img-cart" class="cart1">
+<div id="shopping-cart">
+<table id="cart-content" class="u-full-width">
+<thead>
+<tr>
+<th>Image</th>
+<th>Name</th>
+<th>Price</th>
+<th></th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+
+<a href="/grill" id="clear-cart" class="button u-full-width">Clear Cart</a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+
+        </ul>
+      </div>
+      </div>
       </div>
     </nav>
-</nav>
-<br>
-    <div class="container">
+
       #parse( $template )
-    </div>
+
 
   <!-- SCRIPTS -->
   <!-- JQuery -->

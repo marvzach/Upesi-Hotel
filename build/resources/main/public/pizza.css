@@ -1,0 +1,285 @@
+body{
+  font-family: 'Exo', sans-serif;
+}
+
+#navig
+{
+ margin-top:15px;
+}
+
+#navig ul
+{
+ list-style:none;
+ position:relative;
+ float:right;
+ margin:0;
+ padding:10px;
+}
+
+#navig ul a
+{
+ display:block;
+ color:white;
+ text-decoration:none;
+ font-weight:700;
+ font-size:20px;
+ line-height:32px;
+ padding:0 15px;
+ font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+ font-family: 'Exo', sans-serif;
+}
+
+#navig ul li
+{
+ position:relative;
+ float:left;
+ margin:0;
+ padding:0
+}
+
+#navig ul li.current-menu-item
+{
+ background:#ddd;
+}
+
+#navig ul li:hover
+{
+ background:#f6f6f6
+}
+
+#navig ul ul
+{
+ display:none;
+ position:absolute;
+ top:100%;
+ left:0;
+ padding:0;
+}
+
+#navig ul ul li
+{
+ float:none;
+ width:200px;
+ background-color:#F57F17;
+
+}
+
+#navig ul ul a
+{
+ line-height:120%;
+ padding:10px 15px;
+ color: black;
+}
+
+#navig ul ul ul
+{
+ top:0;
+ left:100%
+}
+#navig ul ul ul:hover
+{
+ background-color: green;
+}
+#navig ul li:hover > ul
+{
+ display:block
+}
+
+
+
+a:active {
+ background-color: pink;
+}
+li{
+ display:inline-block;
+}
+nav ul{
+ padding-left: 300px;
+ margin: 0px;
+ display:inline-block;
+ vertical-align:top;
+}
+nav li{
+ display:inline-block;
+ font-size: 22px;
+ font-family: 'Exo', sans-serif;
+ margin-left: 30px;
+}
+nav>ul>li>a {
+ padding: 4px;
+ margin-right: 0;
+ text-transform: uppercase;
+ display: block;
+ color: white;
+}
+nav>ul>li>a:hover {
+ background: #F57F17;
+ border-radius: 4px;
+ color: white;
+ text-decoration: none;
+}
+.navig{
+ float: left;
+}
+.jumbotron{
+  background-image: url('../img/pizza.jpeg');
+  height: 450px;
+  background-size: cover;
+  font-size: 10px;
+}
+
+.navig{
+  float: left;
+}
+
+
+.one{
+  height: 150px;
+  width: 250px;
+}
+.logo1{
+  height: 160px;
+  width: 250px;
+  border-radius: 5px;
+}
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 10;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-left: 50px;
+  font-family: 'Exo', sans-serif;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  font-family: 'Exo', sans-serif;
+}
+
+.sidenav a:hover {
+  color: black;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.prizes{
+  margin-left: 250px;
+  font-family: 'Exo', sans-serif;
+}
+.navig .col-md-4{
+  margin-top: 50px;
+}
+.prizes h1{
+  background-color: #e6e6e6;;
+  font-size: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ebebeb;
+  color: #080808;
+  font-family: 'Exo', sans-serif;
+}
+.price{
+  position: r;
+}
+.price p{
+  text-align: right;
+  font-size: 20px;
+}
+.sidenav h1{
+  color: #FF5722;
+}
+form{
+  margin-left:50px;
+}
+input[type=text] {
+  width: 76%;
+  padding: 12px;
+  border: 1px solid grey;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  margin-left: 60px;
+  font-family: 'Exo', sans-serif;
+}
+button {
+  padding: 12px;
+  border: 1px solid grey;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  margin-left: 60px;
+  font-family: 'Exo', sans-serif;
+
+}
+
+.placetitle {
+  padding: 25px 20px 10px;
+  background: #F57F17;
+  border-radius: 10px;
+  left: 2%;
+  margin-top: 6%;
+  color: #FFF;
+  z-index: 1;
+  height: 160px;
+  width: 250px;
+  font-size: 25px;
+  padding: 40px;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+
+}
+.placeopening{
+  color: white;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Exo', sans-serif;
+
+  }
+.ourlogo{
+  position: absolute;
+    left: 1%;
+    margin-top: 6%;
+    max-height: 180;
+}
+#grill{
+  font-size: 10px;
+}
+.panel-title{
+  font-family: 'Exo', sans-serif;
+}
+.panel-body{
+  font-family: 'Exo', sans-serif;
+}
+.panel-footer{
+  font-family: 'Exo', sans-serif;
+}
+
+/* Changes for cart */
+button, input, optgroup, select, textarea {
+      width: 35px;
+}
+#clear-cart{
+  width: 100px;
+  background-color: #F57F17;
+}
+.price button{
+    width: 50px;
+}
+.mpesa{
+  height: 10%;
+  width: 30%;
+}
+.pay{
+  font-family: 'Exo', sans-serif;
+  font-size: 30px;
+}

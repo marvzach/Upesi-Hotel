@@ -1,25 +1,57 @@
-<div class="view view-cascade overlay">
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-<div class="carousel-inner">
-<div class="carousel-item active">
-<img class="d-block w-100 card-img-top" src="images/8.png" alt="First slide">
-<div class="carousel-caption">
-<h1 class="animated shake">Trace Park</h1>
-<h2>Here you can track wildlife and report any sightings.</h2>
-<p><a href="/animal/new">Add Animal to System</a></p>
-<p><a href="/sightings">Click here to record a sighting</a></p>
-</div>
-</div>
-</div>
-</div>
-<div class="mask rgba-white-slight"></div>
-</a>
-</div>
 
+<section class="top-page">
+    <div class="jumbotron jumbotron-fluid">
+            <h1 class= "intro1" >Online Ordering System For Hotels</h1>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="first-order">
+    <div class="container">
+          <h1>Make your<span> Exclusive</span> first online order here!</h1>
+        <div class="row">
+        <div class="col-md-7">
+          <img src="images/first.png" class="forder" alt="">
+        </div>
+        <div class="col-md-4">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for hotels or food..">
+<ul id="myUL">
+  <li><a href="pizza">Pizza</a></li>
+  <li><a href="chiense">Chinese</a></li>
 
+  <li><a href="grill">Grill</a></li>
+  <li><a href="grill">Mbuzi Fry</a></li>
 
+  <li><a href="pizza">Octopizza</a></li>
+  <li><a href="grill">Meat deluxe</a></li>
+  <li><a href="grill">BBQ</a></li>
+    <li><a href="pizza">Hawaiian</a></li>
+</ul>
+    </div>
+  
+ </div>
+    </div>
+  </section>
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
 
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
 
-
-
-
+       
